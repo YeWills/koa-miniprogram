@@ -1,0 +1,96 @@
+[2019-03-23T13:00:35.526] [INFO] dev - {"url":"/","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317235525}
+[2019-03-23T13:00:35.624] [INFO] dev - {"url":"/favicon.ico","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"image/webp,image/apng,image/*,*/*;q=0.8","referer":"http://127.0.0.1:4001/","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317235624}
+[2019-03-23T13:00:54.579] [INFO] dev - {"url":"/login","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317254579}
+[2019-03-23T13:04:51.248] [INFO] dev - {"url":"/login","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317491248}
+[2019-03-23T13:04:53.482] [INFO] dev - {"url":"/login","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317493482}
+[2019-03-23T13:06:35.698] [INFO] dev - {"url":"/login","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317595698}
+[2019-03-23T13:06:35.716] [ERROR] dev - ReferenceError: ctx is not defined
+    at router.get (E:\koa-miniprogram\routes.js:28:3)
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at next (E:\koa-miniprogram\node_modules\koa-compose\index.js:45:18)
+    at E:\koa-miniprogram\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at E:\koa-miniprogram\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\koa-miniprogram\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:31:11)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:26:9)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (E:\koa-miniprogram\node_modules\koa-static\index.js:53:15)
+    at <anonymous>
+[2019-03-23T13:08:11.526] [INFO] dev - {"url":"/login","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317691525}
+[2019-03-23T13:08:11.545] [INFO] dev - [login] 用户登陆Code为undefined
+[2019-03-23T13:08:11.683] [ERROR] dev - Error: invalid appid, hints: [ req_id: Dglbh6yFe-2MYnda ]
+    at Request.request [as _callback] (E:\koa-miniprogram\lib\wx.js:18:20)
+    at Request.self.callback (E:\koa-miniprogram\node_modules\request\request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (E:\koa-miniprogram\node_modules\request\request.js:1161:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (E:\koa-miniprogram\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[2019-03-23T13:09:21.594] [INFO] dev - {"url":"/updateUser","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317761594}
+[2019-03-23T13:09:42.954] [INFO] dev - {"url":"/updateUser","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317782954}
+[2019-03-23T13:09:55.192] [INFO] dev - {"url":"/photo","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317795192}
+[2019-03-23T13:10:03.140] [INFO] dev - {"url":"/album","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317803140}
+[2019-03-23T13:10:03.147] [DEBUG] dev - [auth] 获取到到sessionKey为
+[2019-03-23T13:10:03.152] [ERROR] dev - UnauthorizedError: 请求头中未包含x-session
+    at Object.throw (E:\koa-miniprogram\node_modules\koa\lib\context.js:97:11)
+    at module.exports (E:\koa-miniprogram\middlewares\auth.js:8:18)
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at next (E:\koa-miniprogram\node_modules\koa-compose\index.js:45:18)
+    at E:\koa-miniprogram\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at E:\koa-miniprogram\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\koa-miniprogram\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:31:11)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:26:9)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (E:\koa-miniprogram\node_modules\koa-static\index.js:53:15)
+    at <anonymous>
+[2019-03-23T13:11:03.823] [INFO] dev - {"url":"/album","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317863823}
+[2019-03-23T13:11:03.856] [DEBUG] dev - [auth] 获取到到sessionKey为
+[2019-03-23T13:11:03.857] [ERROR] dev - UnauthorizedError: 请求头中未包含x-session
+    at Object.throw (E:\koa-miniprogram\node_modules\koa\lib\context.js:97:11)
+    at module.exports (E:\koa-miniprogram\middlewares\auth.js:8:18)
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at next (E:\koa-miniprogram\node_modules\koa-compose\index.js:45:18)
+    at E:\koa-miniprogram\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at E:\koa-miniprogram\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\koa-miniprogram\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:31:11)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:26:9)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (E:\koa-miniprogram\node_modules\koa-static\index.js:53:15)
+    at <anonymous>
+[2019-03-23T13:11:04.557] [INFO] dev - {"url":"/album","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317864557}
+[2019-03-23T13:11:04.566] [DEBUG] dev - [auth] 获取到到sessionKey为
+[2019-03-23T13:11:04.568] [ERROR] dev - UnauthorizedError: 请求头中未包含x-session
+    at Object.throw (E:\koa-miniprogram\node_modules\koa\lib\context.js:97:11)
+    at module.exports (E:\koa-miniprogram\middlewares\auth.js:8:18)
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at next (E:\koa-miniprogram\node_modules\koa-compose\index.js:45:18)
+    at E:\koa-miniprogram\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\koa-miniprogram\node_modules\koa-compose\index.js:44:32)
+    at E:\koa-miniprogram\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\koa-miniprogram\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:31:11)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\koa-miniprogram\app.js:26:9)
+    at dispatch (E:\koa-miniprogram\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (E:\koa-miniprogram\node_modules\koa-static\index.js:53:15)
+    at <anonymous>
+[2019-03-23T13:11:10.524] [INFO] dev - {"url":"/","query":{},"headers":{"host":"127.0.0.1:4001","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"zh-HK,zh;q=0.9,zh-CN;q=0.8,en;q=0.7"},"timespan":1553317870524}
