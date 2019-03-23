@@ -4,6 +4,7 @@
   "description": " create a backstage to display information ",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
     "test": "test"
   },
   "keywords": [
