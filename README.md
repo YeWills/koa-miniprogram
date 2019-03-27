@@ -19,3 +19,9 @@
 审核功能是管理员的接口
 
 **正式上线，需要增加过滤条件/lib/db/photo.js // isApproved: true**
+
+
+@koa/cors 是用来做跨域支持的 https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS
+
+
+
